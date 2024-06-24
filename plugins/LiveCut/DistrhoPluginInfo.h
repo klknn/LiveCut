@@ -43,6 +43,9 @@
 #define DISTRHO_PLUGIN_NAME "LiveCut"
 #define DISTRHO_PLUGIN_URI "https://github.com/eventual-recluse/LiveCut"
 #define DISTRHO_PLUGIN_CLAP_ID "LiveCut.eventual-recluse"
+// For AU
+#define DISTRHO_PLUGIN_BRAND_ID  Even
+#define DISTRHO_PLUGIN_UNIQUE_ID lCut
 
 #define DISTRHO_PLUGIN_IS_RT_SAFE 0
 #define DISTRHO_PLUGIN_NUM_INPUTS 2
