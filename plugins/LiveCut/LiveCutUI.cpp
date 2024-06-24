@@ -80,6 +80,7 @@ public:
         if (scale_factor == 0) {scale_factor = 1.0;}
         
         UI_COLUMN_WIDTH = 312 * scale_factor;
+        setWidth(UI_COLUMN_WIDTH * 3 + 50 * scale_factor);
         
         // Setup fonts
         ImGuiIO& io = ImGui::GetIO();
